@@ -1,16 +1,4 @@
-type Trait = "attack" | "health" | "speed";
-
-type NftAttribute = {
-  trait_type: Trait;
-  value: string;
-};
-
-type NftMeta = {
-  description: string;
-  image: string;
-  name: string;
-  attributes: NftAttribute[];
-};
+import { NftMeta } from "types/nft";
 
 type NftItemProps = { nft: NftMeta };
 
@@ -84,4 +72,3 @@ const NftItem = ({ nft }: NftItemProps) => {
 };
 
 export default NftItem;
-export type { NftMeta, NftItemProps };
