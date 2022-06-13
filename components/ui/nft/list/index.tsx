@@ -1,4 +1,5 @@
-import NftItem, { NftMeta } from "../item";
+import { NftMeta } from "@_types/nft";
+import NftItem from "@ui/nft/item";
 
 type NftListProps = {
   nfts: NftMeta[];

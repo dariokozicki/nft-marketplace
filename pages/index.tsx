@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 
 import type { NextPage } from "next";
-import { BaseLayout, NftList } from "components";
+import { BaseLayout, NftList } from "components/ui";
 import nfts from "content/meta.json";
-import { NftMeta } from "components/nft/item";
+import { NftMeta } from "types/nft";
 
 const Home: NextPage = () => {
   return (

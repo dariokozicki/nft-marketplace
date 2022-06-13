@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import Navbar from "../../navbar";
+import Navbar from "@ui/navbar";
 
 type BaseLayoutProps = {
   children: React.ReactNode;

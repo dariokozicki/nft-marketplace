@@ -2,7 +2,7 @@
 
 import { Disclosure, Menu } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
-import ActiveLink from "components/link";
+import ActiveLink from "@ui/link";
 import Link from "next/link";
 
 const navigation = [

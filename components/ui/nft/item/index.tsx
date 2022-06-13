@@ -72,4 +72,3 @@ const NftItem = ({ nft }: NftItemProps) => {
 };
 
 export default NftItem;
-export type { NftMeta, NftItemProps };
