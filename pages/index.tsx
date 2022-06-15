@@ -8,10 +8,10 @@ import { useWeb3 } from "@providers/web3";
 
 const Home: NextPage = () => {
   const { isLoading, ethereum, contract, provider } = useWeb3();
-
+  console.log(contract);
   const getAccounts = async () => {
     const accounts = await provider!.listAccounts();
-    console.log(accounts[0]);
+    console.log(accounts);
     return accounts;
   };
 
